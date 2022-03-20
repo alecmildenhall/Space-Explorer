@@ -1,2 +1,2 @@
 # Space-Explorer
-Python game created using pygame that works with ESP32, potentiometer, joystick, and button.
+Introsepctive pygame application that utilizes ESP32, potentiometer, joystick, and button hardware.
