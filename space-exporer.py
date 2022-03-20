@@ -208,7 +208,7 @@ while running:
         # List of end quotes
         quotes = ["So much universe and so little time.", 
         "The Earth is the cradle of humanity, but mankind cannot stay in the cradle forever.", 
-        "Space exploration isa force of nature unto itself that no other force in society can rival.",
+        "Space exploration is a force of nature unto itself that no other force in society can rival.",
         "Exploration is not a choice really; it's an imperative.",
         "Remember to look up at the stars and not down at your feet.",
         "When I first looked back at the Earth, standing on the Moon, I cried.",
