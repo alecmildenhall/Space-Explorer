@@ -31,6 +31,7 @@ The Arduino IDE version 1.8.19 for MacOS was used to write the code for this pro
 - Design as you wish! See picture at the top for inspiration.
 
 ## Demonstration
+<img width="930" alt="cover" src="https://user-images.githubusercontent.com/60529049/159202175-58164060-fe8d-48c8-87b7-c77ea0bc445d.png">
 https://youtu.be/812txpMeIHI
 
 # Music
