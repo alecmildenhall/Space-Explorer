@@ -1,4 +1,34 @@
 # Space-Explorer
-Introspective Python game built with the pygame library that utilizes ESP32, potentiometer, joystick, and button hardware.
+Introspective and intergalactic Python game built with the pygame library that utilizes ESP32, potentiometer, joystick, and button hardware.
 
-<img width="500" alt="cover" src="https://user-images.githubusercontent.com/60529049/159171044-111b9eac-cc16-413f-a14d-24947db36f18.png">
+![Enclosure](https://user-images.githubusercontent.com/60529049/159200595-6b7e5fe0-15ae-4ebb-ac9e-38d288315d3e.jpg)
+
+Link to Medium blog post [here](https://medium.com/@ambermildenhall/interactive-devices-space-explorer-game-2bf27f321ce0) with more information.
+
+The Arduino IDE version 1.8.19 for MacOS was used to write the code for this project. An ESP32 TTGO T-Display was connected to the host computer via a USB cable which was selected as the port under Tools in the IDE preferences. 
+
+## Materials:
+- ESP32 TTGO T-Display
+- USB compatible with computer
+- Button
+- Potentiometer
+- Joystick
+
+## Hardware and Software Setup:
+- Connect ESP32 TTGO T-Display to computer with [Arduino IDE](https://www.arduino.cc/en/software) with a power and data transferring USB cable
+- Go into preferences in the Arduino IDE and enable the ESP32 board by adding the following URL to the board manager:
+  - https://dl.espressif.com/dl/package_esp32_index.json
+- Under Tools, go to Board and select TTGO T1 under ESP32 Arduino
+- Select the correct port for your USB
+- Connect button, potentiometer, and joystick to ESP32 (instructions can be found [here](https://docs.google.com/document/d/1T4hlk-eF1qglwRK2hx12-jN0KnyRpw9Z82uum1wyHaM/edit?usp=sharing))
+- Upload space-explorer.ino to ESP32
+- Run space-explorer.py in IDE of choice
+- Play the game using the connected hardware!
+
+## Enclosure Setup
+- Use or create a box with an open side such that the USB cable is accessible
+- Poke the joystick, button, and potentiometer through the box so that it is exposed to the user
+- Design as you wish! See picture at the top for inspiration.
+
+## Demonstration
+https://youtu.be/812txpMeIHI
